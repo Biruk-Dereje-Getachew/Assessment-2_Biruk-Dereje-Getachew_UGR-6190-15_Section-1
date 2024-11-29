@@ -1,0 +1,43 @@
+.sidebar {
+   width: 17%;
+   padding: 1em;
+   display: flex;
+   flex-direction: column;
+}
+
+.sidebar__section {
+   margin-bottom: 1em;
+   display: flex;
+   flex-direction: column;
+}
+
+.sidebar__heading {
+   color: #76b614;
+   margin-bottom: 1em;
+   font-size: 1.5rem;
+}
+
+.sidebar__list {
+   list-style: none;
+   display: flex;
+   flex-direction: column;
+   flex-grow: 1;
+}
+
+.sidebar__list__item {
+   flex-grow: 1;
+}
+
+.sidebar__list__item__link {
+   text-decoration: none;
+   color: inherit;
+}
+
+.sidebar__list__item {
+   margin-bottom: 2em;
+}
+
+.sidebar__list__item__description {
+   margin-top: 0.55em;
+   opacity: 0.5;
+}
